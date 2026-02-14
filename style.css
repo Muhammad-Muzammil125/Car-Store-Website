@@ -1,0 +1,722 @@
+/* universal css start */
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F8F9;
+    font-family: 'poppins';
+}
+/* universal css end */
+
+/* Header start */
+.header-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.img-column, .btn-column{
+    width: 20%;
+}
+.img-column .logo{
+    width: 75px;
+}
+.img-column{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.nav-area{
+    width: 60%;
+}
+.nav-area .nav-list{
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    font-weight: 300;
+    line-height: 100%;
+}
+.list-item {
+    margin: 0 25px;
+}
+#span{
+    color:rgba(123, 78, 255, 1);
+    font-weight: bold;
+}
+.nav-area .nav-list .list-item a{
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+.btn-column{
+    width: 160px;
+    height: 57px;
+    background-color: rgba(123, 78, 255, 1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: center;
+}
+.btn{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 100%;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+/* Header End */
+
+/* Banner 1 Text & Image Start */
+.banner-section {
+  text-align: center;
+  padding: 0 0 85px 0;
+}
+.banner-section h1 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-top: 8px;
+  font-family: 'Poppins';
+  line-height: 1.2;
+}
+.banner-section h1 span {
+  color: #6c63ff;
+}
+.banner-image {
+  margin-top: 40px;
+}
+.banner-image img {
+  width: 57%;
+}
+/* Banner 1 Text & Image End */
+
+/* Category section start */
+.categories-sec .category-row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 75px;
+}
+.categories-sec .category-col{
+    padding: 10px;
+    width: calc(100% / 3);
+}
+.categories-sec .category-col .wrapper{
+    background: rgba(250, 252, 254, 1);
+    border-radius: 20px;
+    padding: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.categories-sec .category-col .wrapper:hover{
+    background: linear-gradient(#9A78FF, #7B4EFF);
+}
+.categories-sec .wrapper .cat-title{
+    font-size: 24px;
+    font-weight: 400;
+    color:#2C3D5F;
+    margin-top: 20px;
+    font-family: 'Poppins';
+}
+.cat-title a{
+    text-decoration: none;
+    color:#2C3D5F;
+}
+.cat-title a:hover{
+    color: #FFF;
+}
+.categories-sec .wrapper:hover .cat-title{
+    color: #FFF;
+}
+.categories-sec .category-col .wrapper img{
+    margin-top: -40px;
+}
+/* Category section end */
+
+/* Banner 2 Section Start*/
+.d1{
+    background-color:rgba(250, 252, 254, 1);
+    padding: 50px;
+    padding-top: 35px;
+}
+.d2 h1 {
+    font-family: 'Poppins';
+    font-size: 60px;
+    max-width: 720px;
+    width: 100%;      
+    margin-bottom: 25px;
+}
+h1 span{
+    color:rgb(166, 74, 252);
+}
+p {
+    max-width: 700px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+.d2 .buynow{
+    border-radius: 17px;
+    color: white;
+    font-family: 'Poppins';
+    background-color: rgb(166, 74, 252);
+    padding: 15px 35px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.d3{
+    width: 710px;
+    height: 285px;
+    margin-left: 473px;
+    margin-top: -78px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+/* Banner 2 Section End*/
+
+/* Car Selection Section Start */
+.cars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    background-color: rgba(250, 252, 254, 1);
+    margin-top: 100px;
+    padding: 0 20px 86px 20px; 
+    width: 100%;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+.car-card {    
+    margin-top: 120px;
+    position: relative;
+    background: rgba(244, 246, 255, 1);
+    border-radius: 20px;
+    padding: 120px 25px 30px 25px; 
+    transition: 0.4s ease;
+    text-align: left; 
+    max-width: 371px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.car-card img {
+    position: absolute;
+    top: -60px;         
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    height: 180px;
+    object-fit: contain;
+}
+.car-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: rgba(44, 61, 95, 1);
+}
+.rating {
+    color: #FFC107;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.features {
+    font-size: 14px;
+    color: rgba(44, 61, 95, 1);
+    line-height: 1.6;
+    margin-bottom: 15px;
+    width: 90%;
+}
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6D5DF6;
+}
+.price span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #9ca3af;
+}
+.book-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 28px;
+    background: #6D5DF6;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0; 
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+.car-card:hover .book-btn {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.car-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(109, 93, 246, 0.2);
+    border: 2px solid #6D5DF6;
+}
+/* Car Selection Section End */
+
+/* Banner 2 Section Start */
+.second-banner {
+  text-align: center;
+  padding: 0 0 85px 0;
+}
+.second-banner h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  line-height: 61px;
+  font-family: 'Poppins';
+  color: rgba(44, 61, 95, 1);
+  padding-top: 20px;
+}
+.second-banner h2 span {
+  color: rgba(123, 78, 255, 1);
+}
+.second-banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(44, 61, 95, 1);
+    display: flex;
+    justify-content: center;
+    padding:1px 307px 12px 307px;
+}
+.second-banner-btn{
+    width: 162px;
+    background-color: rgba(123, 78, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 57px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    border: 2px;
+    border-radius: 20px
+}
+.second-banner-image {
+  margin-top: 40px;
+}
+.second-banner-image img {
+  width: 90%;
+}
+/* Banner 2 Section End */
+
+/* Review Section Start */
+.review-section {
+    padding: 100px 0;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.review-header-main {
+    flex: 0 0 350px;
+}
+.review-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2C3D5F;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.review-title .highlight {
+    color: #7B4EFF;
+}
+.review-subtext {
+    font-size: 14px;
+    color: #8E8E8E;
+    margin-bottom: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.slider-arrows {
+    display: flex;
+    gap: 15px;
+    width: 20px;
+}
+.arrow {
+    width: 25px;
+    cursor: pointer;
+}
+.review-grid {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.review-card {
+    flex: 0 0 320px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-meta h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #2C3D5F;
+    font-family: 'Poppins', sans-serif;
+}
+.user-meta span {
+    font-size: 12px;
+    color: #8E8E8E;
+}
+.comma-icon {
+    width: 25px;
+}
+.review-text {
+    font-size: 14px;
+    color: #4F5665;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.stars {
+    color: #F8BB46;
+    font-size: 14px;
+}
+/* Review Section End */
+
+/* Article Section Start */
+.article-heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article-heading h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  line-height: 61px;
+  font-family: 'Poppins';
+  color: rgba(44, 61, 95, 1);
+  padding-top: 20px;
+}
+.article-heading h2 span {
+    color: rgba(123, 78, 255, 1);
+}
+.article-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(44, 61, 95, 1);
+    padding:1px 307px 12px 307px;
+    font-family: 'Poppins';
+}
+.article-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+.article-card {
+    width: 27%;
+    padding: 15px;
+    margin: 10px 33px 10px 13px;
+    background-color:rgba(250, 252, 254, 1);
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: 0.4s;
+}
+.article-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(109, 93, 246, 0.2);
+    border: 2px solid #6D5DF6;
+}
+.article-wrapper{
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+.article-name{
+    font-size: 18px;
+    color: rgba(44, 61, 95, 1);
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin-bottom: 0px;
+}
+.article-features{
+    font-size: 16px;
+    color: rgba(44, 61, 95, 1);
+    font-weight: 400;
+    font-family: 'Poppins';
+    width: 100%;
+    margin-top: 0px;
+}
+.article-link{
+    color: rgba(123, 78, 255, 1);
+    font-family:'Poppins';
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.article-wrapper img{
+        width: 100%;
+}
+/* Article Section End */
+
+/* Footer Section Start */
+.footer{
+    height: 387px;
+    margin-top: 90px;}
+.footer-image img{
+    width: 100%;
+    height: 431px;
+    position: relative;
+    bottom: 44px;
+}
+.footer-icon{
+    display: flex;
+    position: relative;
+    bottom: 446px;
+    left: 9px;
+    justify-content: center;
+}
+.footer-icon .img-2b{
+    position: relative;
+    right: 54px;
+    top: 25px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 415px;
+}
+.footer-content{
+    position: relative;
+    bottom: 298px;
+}
+.footer-links{
+    width: 100%;
+    position: relative;
+    bottom: 110px;
+}
+.footer-links ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    justify-content: center;
+}
+.footer-links a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: rgba(36, 61, 76, 1);
+}
+.footer-socials{
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    position: relative;
+    bottom: 96px;
+}
+.footer-line{
+    position: relative;
+    bottom: 67px;
+    width: 100%;
+}
+.copyright-text{
+    color: rgba(36, 61, 76, 1);
+    font-size: 16px;
+    position: relative;
+    bottom: 61px;
+    text-align: center;
+    margin-left: 255px;
+}
+/* Footer Section End */
+
+/* Media Query Section Start */
+@media (max-width: 1024px) {
+    .img-column{
+        margin-left: 20px;
+    }
+    .nav-area .nav-list{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .list-item{
+        margin: 10px 15px;
+    }
+    .banner-section{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .banner-section h1{
+        font-size: 40px;
+    }
+    .copyright-text{
+        margin-left: 20px;
+    }
+    .category-row{
+        width: 90%;
+    }
+    .category-col .wrapper{
+        width: 90%;
+    }
+    .categories-sec .wrapper img{
+        width: 100%;
+        height: 60%;
+    }
+}
+@media (max-width: 768px) {
+    .header-row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-column,
+    .nav-area,
+    .btn-column{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .img-column{
+        margin-left: 0;
+    }
+    .nav-area .nav-list{
+        justify-content: center;
+        padding: 0;
+    }
+    .btn-column{
+        margin: 15px auto;
+    }
+}
+@media (max-width: 992px) {
+    .cars-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 20px 50px 20px;
+    }
+    .second-banner p{
+        margin-left: -166px;
+    }
+     .category-row{
+        width: 90%;
+    }
+    .category-col .wrapper{
+        width: 85%   
+     }
+    .categories-sec .wrapper img{
+        width: 106%;
+        height: 55%;
+    }
+}
+@media (max-width: 600px) {
+    .cars-grid {
+        grid-template-columns: 1fr;
+    }
+    .car-card {
+        margin-top: 80px;
+        max-width: 100%;
+    }
+    .footer-socials{
+        gap: 41px;
+    }
+}
+@media (max-width: 1260px) {
+    .d3{
+        width: 58%;
+        margin-left: 40%;        
+    }
+}
+@media (max-width: 1024px) {
+    .d2 h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .d3 {
+        margin-left: 35%;
+        width: 64%;
+    }
+}
+@media (max-width: 768px) {
+    .article-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-card {
+        width: 90%;
+        margin: 15px 0;
+    }
+    .categories-sec .category-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+    .categories-sec .category-col {
+        width: 90% !important;
+        padding: 0;
+    }
+    .categories-sec .category-col .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .second-banner p, .article-paragraph {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 14px !important;
+        margin: 10px auto !important;
+        text-align: center;
+    }
+    .copyright-text{
+        margin-left: 17px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 1020px) {
+    .review-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .review-header {
+        flex: 1;
+        margin-bottom: 30px;
+    }
+    .review-grid {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px) {
+    .review-card {
+        flex: 0 0 100%;
+        max-width: 400px;
+    }
+}
+@media (max-width: 480px) {
+    .review-title {
+        font-size: 28px;
+    }
+}
+/* Media Query Section End */
